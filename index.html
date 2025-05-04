@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Dashboard</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Weather Dashboard</h1>
+  <p id="date-time">Loading date and time...</p>
+  <div>
+    <input type="text" placeholder="  Search city....." height="50" width="50"/>
+  </div>
+  <div class="box">
+    <h2>Chennai</h2>
+    <img src="images/sunny 1.gif" alt="Sunny" />
+    <h3>Temperature: 25°C</h3>
+    <h4>Condition: Sunny</h4>
+  </div>
+  <h2>5-Day Forecast</h2>
+  <div>
+    <div class="forecast-day">
+      <h4>Mon</h4>
+      <img src="images/weather.gif" alt="Cloudy" />
+      <p>Partly Cloudy</p>
+      <p>22°C</p>
+    </div>
+    <div class="forecast-day">
+      <h4>Tue</h4>
+      <img src="images/cloudy.gif" alt="Cloudy" />
+      <p>Cloudy</p>
+      <p>20°C</p>
+    </div>
+    <div class="forecast-day">
+      <h4>Wed</h4>
+      <img src="images/drizzle.gif" alt="drizzle" />
+      <p>Drizzly</p>
+      <p>26°C</p>
+    </div>
+    <div class="forecast-day">
+      <h4>Thu</h4>
+      <img src="images/Rainy.gif" alt="Rainy" />
+      <p>Rainy</p>
+      <p>23°C</p>
+    </div>
+    <div class="forecast-day">
+      <h4>Fri</h4>
+      <img src="images/sunny.gif" alt="Sunny" />
+      <p>Sunny</p>
+      <p>19°C</p>
+    </div>
+  </div>
+
+  <button id="toggle-dark">Toggle Dark Mode</button>
+  <script src="script.js"></script>
+</body>
+</html>
